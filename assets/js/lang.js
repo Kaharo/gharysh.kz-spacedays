@@ -1,7 +1,8 @@
 $(document).ready(function(){
-        var kazImgLink = "../conference-master/assets/images/flags/Kazakhstan.gif";
-        var rusImgLink = "../conference-master/assets/images/flags/Russia.gif";
-    	var engImgLink = "../conference-master/assets/images/flags/GreatBritain.gif";
+	// spacedays2016/assets/images/speakers/speaker-1.jpg
+        var kazImgLink = "../spacedays2016/assets/images/flags/Kazakhstan.gif";
+        var rusImgLink = "../spacedays2016/assets/images/flags/Russia.gif";
+    	var engImgLink = "../spacedays2016/assets/images/flags/GreatBritain.gif";
 		
 
 		var imgBtnSel = $('#imgBtnSel');
