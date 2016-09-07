@@ -12,18 +12,12 @@
 	$organization   = $_POST['organization'];
 	$occupation 	= $_POST['occupation'];
 	$additional 	= $_POST['additional'];
-	// $address    	= $_POST['address'];
-	// $zip        	= $_POST['zip'];
-	// $city        	= $_POST['city'];
-	// $program    	= $_POST['program'];
 
-	// $message     	= "First Name: $fname, \nLast Name: $lname, \nEmail: $email, \nCell: $cell, \nAddress: $address, \nZip Code: $zip, \nCity: $city, \nProgram: $program.";
 	$message     	= "First Name: $fname, \nLast Name: $lname, \nMiddle Name: $mname, 
-	\nEmail: $email, \nCell: $cell, \nCountry: $country, \nOrganization: $organization, 
-	\nOccupation: $occupation, \nadditional: $additional.";
+						\nEmail: $email, \nCell: $cell, \nCountry: $country, \nOrganization: $organization, 
+						\nOccupation: $occupation, \nadditional: $additional.";
 
-	// if(mail('k.bazaraly@gharysh.kz', "Test Sub", $message))
-	if(mail('k.bazaraly@gharysh.kz', "Registartion for Space days 2016", $message))
+	if(mail('spacedays@gmail.com', "Registartion for Space days 2016", $message))
 		$form_data['success'] = true;
 	else
 		$form_data['success'] = false;
