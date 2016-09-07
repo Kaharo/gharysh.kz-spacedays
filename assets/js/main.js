@@ -31,10 +31,12 @@ $('#registration-form').submit(function(e){
     var postForm = { //Fetch form data
             'fname'         : $('#registration-form #fname').val(),
             'lname'         : $('#registration-form #lname').val(),
+            'mname'         : $('#registration-form #mname').val(),
             'email'         : $('#registration-form #email').val(),
             'cell'          : $('#registration-form #cell').val(),
             'country'       : $('#registration-form #country').val(),
             'organization'  : $('#registration-form #organization').val(),
+            'occupation'    : $('#registration-form #occupation').val(),
             'additional'    : $('#registration-form #additional').val()
             // 'address'   : $('#registration-form #address').val(),
             // 'zip'       : $('#registration-form #zip').val(),
