@@ -17,7 +17,7 @@
 						\nEmail: $email, \nCell: $cell, \nCountry: $country, \nOrganization: $organization, 
 						\nOccupation: $occupation, \nadditional: $additional.";
 
-	if(mail('spacedays@gmail.com', "Registartion for Space days 2016", $message))
+	if(mail('spacedayskz@gmail.com', "Registartion for Space days 2016", $message))
 		$form_data['success'] = true;
 	else
 		$form_data['success'] = false;
