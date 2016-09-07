@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	// spacedays2016/assets/images/speakers/speaker-1.jpg
-        var kazImgLink = "../spacedays2016/assets/images/flags/Kazakhstan.gif";
-        var rusImgLink = "../spacedays2016/assets/images/flags/Russia.gif";
-    	var engImgLink = "../spacedays2016/assets/images/flags/GreatBritain.gif";
+        var kazImgLink = "assets/images/flags/Kazakhstan.gif";
+        var rusImgLink = "assets/images/flags/Russia.gif";
+    	var engImgLink = "assets/images/flags/GreatBritain.gif";
 		
 
 		var imgBtnSel = $('#imgBtnSel');
