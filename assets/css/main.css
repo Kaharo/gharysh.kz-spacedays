@@ -588,6 +588,7 @@ ul li {
     margin-bottom: 0;
   }
 }
+
 @media (min-width: 992px) {
   .schedule-box {
     margin: 0;
@@ -691,6 +692,31 @@ ul li {
 @media (max-width: 767px) {
     
 }
-
 /*********** End of Agenda block *********/
 
+  
+/** Contacts **/
+.contacts-box {
+  background-color: #fefefe; /*#000;*/
+  color: #033566;
+  text-align: center;
+  border: 2px solid #033566;
+  padding-top: 1.8em;
+  padding-bottom: 1.8em;
+  margin-top: 1.2em;
+  margin-bottom: 1.2em;
+}
+
+
+/*.contacts-box a {*/
+/*  color: #033566;*/
+/*}*/
+
+/*.contacts-box a:hover {*/
+/*  color: #021a31;*/
+/*}*/
+
+/*.contacts-box a:focus {*/
+  
+/*  color: #0666c6;*/
+/*}*/
