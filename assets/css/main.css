@@ -707,6 +707,17 @@ ul li {
   margin-bottom: 1.2em;
 }
 
+/*// Classes*/
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden !important;
+}
+.invisible {
+  visibility: hidden;
+}
 
 /*.contacts-box a {*/
 /*  color: #033566;*/

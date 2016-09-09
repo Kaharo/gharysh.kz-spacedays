@@ -72,3 +72,18 @@ $('#registration-form').submit(function(e){
 */
 
 smoothScroll.init();
+
+
+$('#speechTitle').change(function () {
+    if ($('#speechTitle').is(':checked')) {
+        $('#speechTitle').addClass('checked');
+    } else {
+        $('#speechTitle').removeClass('checked');
+    }
+});
+
+// $(function(){
+//     $("#speechTitle").toggleClass('hidden');
+//     // $("#speech-title").removeClass('hidden');
+// //   $("#myId").addClass('hidden');
+// });
