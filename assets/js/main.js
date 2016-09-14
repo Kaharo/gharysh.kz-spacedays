@@ -37,11 +37,8 @@ $('#registration-form').submit(function(e){
             'country'       : $('#registration-form #country').val(),
             'organization'  : $('#registration-form #organization').val(),
             'occupation'    : $('#registration-form #occupation').val(),
-            'additional'    : $('#registration-form #additional').val()
-            // 'address'   : $('#registration-form #address').val(),
-            // 'zip'       : $('#registration-form #zip').val(),
-            // 'city'      : $('#registration-form #city').val(),
-            // 'program'   : $('#registration-form #program').val()
+            'additional'    : $('#registration-form #additional').val(),
+            'speechTitle'   : $('#registration-form #speechTitle').val()
     };
 
     $.ajax({
@@ -73,14 +70,14 @@ $('#registration-form').submit(function(e){
 
 smoothScroll.init();
 
-
-$('#speechTitle').change(function () {
-    if ($('#speechTitle').is(':checked')) {
-        $('#speechTitle').addClass('checked');
-    } else {
-        $('#speechTitle').removeClass('checked');
-    }
+$(document).ready(function(){
+    $('input[type="checkbox"]').click(function(){
+        if($(this).attr("value")=="show-div"){
+            $("#speechTitle").toggle();
+        }
+    });
 });
+
 
 // $(function(){
 //     $("#speechTitle").toggleClass('hidden');

@@ -231,7 +231,8 @@ ul li {
 }
 
 .bg-image-2 {
-  background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;
+  /*background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;*/
+  background: url(../images/backgrounds/Marriot_collageM.png) no-repeat center bottom/cover;
 }
 .bg-image-2::before {
   background-color: rgba(0, 0, 0, 0.7);
@@ -731,3 +732,8 @@ ul li {
   
 /*  color: #0666c6;*/
 /*}*/
+
+
+#speechTitle {
+  display:none;
+}
