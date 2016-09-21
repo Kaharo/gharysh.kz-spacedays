@@ -48,6 +48,7 @@ $('#registration-form').submit(function(e){
             dataType  : 'json',
             success   : function(data) {
                             if (data.success) {
+                                alert("Registration was successfull");
                                 $('#registration-msg .alert').html("Registration Successful");
                                 $('#registration-msg .alert').removeClass("alert-danger");
                                 $('#registration-msg .alert').addClass("alert-success");

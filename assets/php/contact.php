@@ -16,7 +16,7 @@
 
 	$message     	= "First Name: $fname, \nLast Name: $lname, \nMiddle Name: $mname, 
 						\nEmail: $email, \nCell: $cell, \nCountry: $country, \nOrganization: $organization, 
-						\nOccupation: $occupation, \nadditional: $additional., \nspeechTitle: $speechTitle";
+						\nOccupation: $occupation, \nadditional: $additional, \nspeechTitle: $speechTitle";
 
 	if(mail('spacedayskz@gmail.com', "Registartion for Space days 2016", $message))
 		$form_data['success'] = true;
