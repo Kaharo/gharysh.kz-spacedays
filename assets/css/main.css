@@ -327,11 +327,8 @@ ul li {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  /*background: url(../images/backgrounds/header.jpg) no-repeat center center/cover;*/
-  /*background: url(../images/backgrounds/palace_of_independance_summer.jpg) no-repeat center center/cover;*/
-  /*background: url(../images/backgrounds/palace_of_independance.png) no-repeat center center/cover;*/
-  background: url(../images/backgrounds/palace_of_independance_whole.jpg) no-repeat center center/cover;
-  /*background: url(../images/backgrounds/Palace_of_Independence.jpg) no-repeat center center/cover;*/
+  /*background: url(../images/backgrounds/palace_of_independance_whole.jpg) no-repeat center center/cover;*/
+  background: url(../images/backgrounds/bg2.png) no-repeat center center/cover;
 }
 .site-header::before {
   content: "";
@@ -340,7 +337,7 @@ ul li {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .site-header .intro {
@@ -743,4 +740,22 @@ ul li {
 
 .btn-primary {
   background-color: #033566;
+}
+
+.sponsors {
+  width: 200px; 
+  height: 70px; 
+  /*display:block;*/
+  display:inline-block;
+  
+}
+
+#sponsor_platina {
+    background: url(../images/partner/Sponsors_Airbus.png) no-repeat center center/cover;
+}
+#sponsor_gold {
+    background: url(../images/partner/Sponsors_IABG.png) no-repeat center center/cover;
+}
+#sponsor_silver {
+   background: url(../images/partner/Sponsors_white.png) no-repeat center center/cover;
 }
