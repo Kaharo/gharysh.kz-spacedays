@@ -351,6 +351,37 @@ ul li {
   padding: 0 15px;
 }
 
+.bottom-align-text {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  /*height: 100vh;*/
+  width: 100vw;
+  left: 0;
+}
+
+.bottom-align-text a {
+  color: #fff;
+} 
+
+#countdown {
+  color: #FFFFFF;
+  right: 0;
+}
+
+#countdown span {
+  color: #E5E5E5;
+  font-size: 26px;
+  font-weight: normal;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+#linkKGS {
+  left:0;
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     /* IE10+ CSS styles go here */
     .site-header .intro {

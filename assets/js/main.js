@@ -22,6 +22,55 @@ function handleTopNavAnimation() {
 }
 
 /*
+ * COunter
+*/
+// set the date we're counting down to
+var target_date = new Date('Nov, 21, 2016').getTime();
+ 
+// variables for time units
+var days, hours, minutes, seconds;
+ 
+// get tag element
+var countdown = document.getElementById('countdown');
+ 
+// update the tag with id "countdown" every 1 second
+setInterval(function () {
+ 
+    // find the amount of "seconds" between now and target
+    var current_date = new Date().getTime();
+    var seconds_left = (target_date - current_date) / 1000;
+ 
+    // do some time calculations
+    days = parseInt(seconds_left / 86400);
+    seconds_left = seconds_left % 86400;
+     
+    hours = parseInt(seconds_left / 3600);
+    seconds_left = seconds_left % 3600;
+     
+    minutes = parseInt(seconds_left / 60);
+    seconds = parseInt(seconds_left % 60);
+     
+    // format countdown string + set tag value
+    // countdown.innerHTML = '<span class="days">' + days +  'days </span> <span class="hours">' + hours + 'hours</span><span class="minutes">'
+    // + minutes + 'min</span><span class="seconds">' + seconds + ' sec</span>';  
+    
+    var outLang =  "";
+    switch (document.getElementById('countdown').getAttribute("lang")) {
+        case 'kz':
+            outLang='кун';
+            break;
+        case 'en':
+            outLang='days';
+            break;
+        default:
+            outLang='дней';
+            break;
+    }
+    countdown.innerHTML = '<h1 class="time" style="font-weight:lighter;">' + days + " " + outLang + " "  + ((hours<=9)?"0"+ hours: hours) + ':' +  ((minutes<=9)?"0"+ minutes: minutes)  + ':' + ((seconds<=9)?"0"+ seconds: seconds) + '</h1>';  
+ 
+}, 1000);
+
+/*
  * Registration Form
 */
 
@@ -64,6 +113,7 @@ $('#registration-form').submit(function(e){
                         }
         });
 });
+
 
 /*
  * SmoothScroll
