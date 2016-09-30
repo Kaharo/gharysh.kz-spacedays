@@ -57,7 +57,7 @@ setInterval(function () {
     var outLang =  "";
     switch (document.getElementById('countdown').getAttribute("lang")) {
         case 'kz':
-            outLang='кун';
+            outLang='күн';
             break;
         case 'en':
             outLang='days';
