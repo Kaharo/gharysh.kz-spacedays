@@ -378,10 +378,6 @@ ul li {
   text-align: center;
 }
 
-#linkKGS {
-  left:0;
-}
-
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
     /* IE10+ CSS styles go here */
     .site-header .intro {
