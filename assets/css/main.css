@@ -211,6 +211,24 @@ ul li {
   background-color: #000;
 }
 
+.btn-blue {
+  color: #fff;
+  background-color: #033566;
+}
+.btn-blue:hover, .btn-blue:focus {
+  color: #fff;
+  background-color: #033566;
+}
+
+.btn-yellow {
+  color: #fff;
+  background-color: #E1AA00;
+}
+.btn-yellow:hover, .btn-yellow:focus {
+  color: #fff;
+  background-color: #E1AA00;
+}
+
 /* 
  * 3.5 Helper Class: background
  */
@@ -229,6 +247,11 @@ ul li {
 .bg-image-1 {
   /*background: url(../images/backgrounds/bg-1.jpg) no-repeat center center/cover;*/
   background: url(../images/backgrounds/bgNSC2.jpg) no-repeat center center/cover;
+}
+@media (min-width: 768px) {
+  .bg-image-1 {
+    background: url(../images/backgrounds/bg-1-forFacts1.png) no-repeat center center/cover;
+  }
 }
 .bg-image-1::before {
   background-color: rgba(0, 0, 0, 0.7);
