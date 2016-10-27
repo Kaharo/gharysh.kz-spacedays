@@ -266,9 +266,6 @@ ul li {
 }
 
 @media (min-width: 768px) {
-  .section {
-    padding: 90px 0;
-  }
 
   .section-title {
     color: #313131;
@@ -803,22 +800,109 @@ ul li {
 }
 
 .sponsors {
-  width: 200px; 
-  height: 70px; 
+  width:200px; 
+  height:70px; 
+  margin:0 0 50px 0;
   /*display:block;*/
   display:inline-block;
-  
 }
 
-#sponsor_platina {
-    background: url(../images/partner/Sponsors_Airbus.png) no-repeat center center/cover;
+.platina {
+  color:#84898C;
 }
-#sponsor_gold {
-    background: url(../images/partner/Sponsors_IABG.png) no-repeat center center/cover;
+.gold {
+  color:#E1AA00;
 }
-#sponsor_silver {
-   background: url(../images/partner/Sponsors_white.png) no-repeat center center/cover;
+.silver {
+  color:#CCCCCC;
 }
+.media {
+  color:#033566;
+}
+.sponsor_platina {
+  width: 350px; 
+  height: 85px;   
+}
+.sponsor_gold {
+  width: 350px; 
+  height: 85px;   
+}
+.sponsor_silver {
+  width: 200px; 
+  height: 70px;   
+}
+#sponsor_platina_airbus {
+  background: url(../images/partner/Sponsors_Airbus.png) no-repeat center center/cover;
+}
+#sponsor_gold_iabg {
+  background: url(../images/partner/Sponsors_IABG.png) no-repeat center center/cover;
+}
+#sponsor_gold_sstl {
+  background: url(../images/partner/Sponsors_sstl.jpg) no-repeat center center/cover;
+}
+#sponsor_silver_urthecast {
+   background: url(../images/partner/Sponsors_Urthecast.png) no-repeat center center/cover;
+}
+#sponsor_silver_nat {
+   background: url(../images/partner/Sponsors_NAT.png) no-repeat center center/cover;
+}
+#sponsor_silver_ba {
+   background: url(../images/partner/Sponsors_BankAstany.png) no-repeat center center/cover;
+}
+#sponsor_silver_sunacs {
+   background: url(../images/partner/Sponsors_SUNACS.png) no-repeat center center/cover;
+}
+#sponsor_silver_cosmotrans {
+   background: url(../images/partner/Sponsors_Cosmotrans.png) no-repeat center center/cover;
+}
+#sponsor_silver_geoscan {
+   background: url(../images/partner/Sponsors_Geoscan.png) no-repeat center center/cover;
+}
+#sponsor_silver_ibs {
+   background: url(../images/partner/Sponsors_IBS.png) no-repeat center center/cover;
+}
+#sponsor_silver_sovzond {
+   background: url(../images/partner/Sponsors_Sovzond.png) no-repeat center center/cover;
+}
+#sponsor_silver_racurs {
+   background: url(../images/partner/Sponsors_Racurs.png) no-repeat center center/cover;
+}
+#sponsor_silver_scanecs {
+   background: url(../images/partner/Sponsors_Scanecs.png) no-repeat center center/cover;
+}
+
+/*.platina {*/
+/*    text-align: center;*/
+/*    border-bottom: 1px solid #84898C;*/
+/*    line-height: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.platina span {*/
+/*    background: #F8F8F8;*/
+/*    padding: 0 15px;*/
+/*}*/
+
+/*#sponsor_blank {*/
+/*   background: url(../images/partner/Sponsors_white.png) no-repeat center center/cover;*/
+/*}*/
+
+@media (min-width: 768px) {
+  .sponsor_platina {
+    width: 600px; 
+    height: 145px;
+  }
+  .sponsor_gold {
+    width: 400px; 
+    height: 139px;   
+  }
+  .sponsor_silver {
+    width: 300px; 
+    height: 85px;
+  }
+}
+
+
 
 /*Panel tabs*/
 .panel-tabs {
@@ -890,24 +974,29 @@ ul li {
 {
   left: -12px;
   background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
+  background: none repeat scroll 0 0 #033566;
+  border: 4px solid #033566;
   border-radius: 23px 23px 23px 23px;
   height: 40px;
   width : 40px;
-  margin-top: 30px
+  margin-top: 80px
 }
 /* Next button  */
 .media-carousel .carousel-control.right 
 {
   right: -12px !important;
   background-image: none;
-  background: none repeat scroll 0 0 #222222;
-  border: 4px solid #FFFFFF;
+  background: none repeat scroll 0 0 #033566;
+  border: 4px solid #033566;
   border-radius: 23px 23px 23px 23px;
   height: 40px;
   width : 40px;
-  margin-top: 30px
+  margin-top: 80px
+}
+@media (max-width: 960px) {
+  .media-carousel .carousel-control.left, .media-carousel .carousel-control.right  {
+    margin-top: 150px
+  }
 }
 /* Changes the position of the indicators */
 .media-carousel .carousel-indicators 
@@ -925,10 +1014,5 @@ ul li {
 .media-carousel .carousel-indicators .active 
 {
   background: #333333;
-}
-.media-carousel img
-{
-  width: 250px;
-  height: 100px
 }
 /* End carousel */
