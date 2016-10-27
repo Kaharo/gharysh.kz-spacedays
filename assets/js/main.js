@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Change Navbar color while scrolling
 */
 
@@ -127,6 +127,13 @@ $(document).ready(function(){
             $("#speechTitle").toggle();
         }
     });
+});
+
+$(document).ready(function() {
+  $('#media').carousel({
+    pause: true,
+    interval: false,
+  });
 });
 
 
