@@ -799,38 +799,56 @@ ul li {
   background-color: #033566;
 }
 
+.platina, .gold, .silver, .information {
+  line-height: 0;
+  padding: 0;
+}
+.platina {
+  border-bottom: 1px solid #84898C;
+  color:#84898C;
+}
+
+.gold {
+  border-bottom: 1px solid #E1AA00;
+  color:#E1AA00;
+}
+
+.silver {
+  border-bottom: 1px solid #CCCCCC;
+  color:#CCCCCC;
+}
+
+.information {
+  border-bottom: 1px solid #033566;
+  color:#033566;
+}
+
+.partner span {
+    background: #F8F8F8;
+    padding: 0 15px;
+}
+
 .sponsors {
   width:200px; 
-  height:70px; 
+  height:79px; 
   margin:0 0 50px 0;
   /*display:block;*/
   display:inline-block;
 }
 
-.platina {
-  color:#84898C;
-}
-.gold {
-  color:#E1AA00;
-}
-.silver {
-  color:#CCCCCC;
-}
-.media {
-  color:#033566;
-}
-.sponsor_platina {
-  width: 350px; 
-  height: 85px;   
-}
-.sponsor_gold {
-  width: 350px; 
-  height: 85px;   
-}
-.sponsor_silver {
-  width: 200px; 
-  height: 70px;   
-}
+/*.sponsor_platina {*/
+/*  width: 400px; */
+/*  height: 139px;   */
+/*}*/
+/*.sponsor_gold {*/
+/*  width: 350px; */
+/*  height: 85px;   */
+/*}*/
+/*.sponsor_silver {*/
+/*  width: 200px; */
+/*  height: 70px;   */
+/*}*/
+
 #sponsor_platina_airbus {
   background: url(../images/partner/Sponsors_Airbus.png) no-repeat center center/cover;
 }
@@ -838,7 +856,7 @@ ul li {
   background: url(../images/partner/Sponsors_IABG.png) no-repeat center center/cover;
 }
 #sponsor_gold_sstl {
-  background: url(../images/partner/Sponsors_sstl.jpg) no-repeat center center/cover;
+  background: url(../images/partner/Sponsors_sstl.png) no-repeat center center/cover;
 }
 #sponsor_silver_urthecast {
    background: url(../images/partner/Sponsors_Urthecast.png) no-repeat center center/cover;
@@ -871,22 +889,6 @@ ul li {
    background: url(../images/partner/Sponsors_Scanecs.png) no-repeat center center/cover;
 }
 
-/*.platina {*/
-/*    text-align: center;*/
-/*    border-bottom: 1px solid #84898C;*/
-/*    line-height: 0;*/
-/*    padding: 0;*/
-/*}*/
-
-/*.platina span {*/
-/*    background: #F8F8F8;*/
-/*    padding: 0 15px;*/
-/*}*/
-
-/*#sponsor_blank {*/
-/*   background: url(../images/partner/Sponsors_white.png) no-repeat center center/cover;*/
-/*}*/
-
 @media (min-width: 768px) {
   .sponsor_platina {
     width: 600px; 
@@ -901,8 +903,6 @@ ul li {
     height: 85px;
   }
 }
-
-
 
 /*Panel tabs*/
 .panel-tabs {
