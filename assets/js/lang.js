@@ -18,7 +18,7 @@ $(document).ready(function() {
 
 	var spanNavSel = $('#lanNavSel');
 	var spanBtnSel = $('#lanBtnSel');
-
+	
 	imgBtnSel.attr("src",rusImgLink);
 	imgBtnKaz.attr("src",kazImgLink);
 	imgBtnEng.attr("src",engImgLink);
@@ -28,6 +28,19 @@ $(document).ready(function() {
 	imgNavKaz.attr("src",kazImgLink);
 	imgNavEng.attr("src",engImgLink);
 	imgNavRus.attr("src",rusImgLink);
+	
+	// var currentId = $("#imgNavSel").attr('id');
+	
+	// if(currentId == "navKaz") {
+	// 	imgNavSel.attr("src",kazImgLink);
+	// 	spanNavSel.text("KAZ");
+	// } else if (currentId == "navEng") {
+	// 	imgNavSel.attr("src",engImgLink);
+	// 	spanNavSel.text("ENG");
+	// } else if (currentId == "navRus") {
+	// 	imgNavSel.attr("src",rusImgLink);
+	// 	spanNavSel.text("RUS");
+	// }
 	
 
 	$( ".language" ).on( "click", function( event ) {

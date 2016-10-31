@@ -232,10 +232,10 @@ ul li {
 /* 
  * 3.5 Helper Class: background
  */
-.bg-image, .bg-image-1, .bg-image-2 {
+.bg-image, .bg-image-1, .bg-image-2, .bg-image-3, .bg-image-4 {
   position: relative;
 }
-.bg-image::before, .bg-image-1::before, .bg-image-2::before {
+.bg-image::before, .bg-image-1::before, .bg-image-2::before, .bg-image-3::before , .bg-image-4::before  {
   content: "";
   position: absolute;
   top: 0;
@@ -265,8 +265,23 @@ ul li {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-@media (min-width: 768px) {
 
+.bg-image-3 {
+  background: url(../images/backgrounds/Spacedays_hackaton_bg.png) no-repeat center center/cover;
+}
+.bg-image-3::before {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.bg-image-4 {
+  /*background: url(../images/backgrounds/bg-2.jpg) no-repeat center bottom/cover;*/
+  background: url(../images/backgrounds/Ramada_collage_bg.jpg) no-repeat center center/cover;
+}
+.bg-image-4::before {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 768px) {
   .section-title {
     color: #313131;
     letter-spacing: 1px;
@@ -276,6 +291,7 @@ ul li {
     text-align: center;
   }
 }
+
 /* 
  * 4.0 Navigation
  */
@@ -877,8 +893,8 @@ ul li {
     height: 85px;
   }
   .sponsor_hackaton {
-    width: 500px; 
-    height: 189px;
+    width: 400px; 
+    height: 151px;
   }
 }
 
