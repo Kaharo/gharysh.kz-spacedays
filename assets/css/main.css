@@ -1059,3 +1059,7 @@ ul li {
 .text-justify {
   text-align: justify;
 }
+
+#hackaton-title {
+  color: #fff;
+}
