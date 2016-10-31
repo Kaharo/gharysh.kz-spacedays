@@ -19,19 +19,19 @@ $(document).ready(function() {
 	var spanNavSel = $('#lanNavSel');
 	var spanBtnSel = $('#lanBtnSel');
 
-	imgBtnSel.attr("src",engImgLink);
+	imgBtnSel.attr("src",rusImgLink);
 	imgBtnKaz.attr("src",kazImgLink);
 	imgBtnEng.attr("src",engImgLink);
 	imgBtnRus.attr("src",rusImgLink);
 
-	imgNavSel.attr("src",engImgLink);
+	imgNavSel.attr("src",rusImgLink);
 	imgNavKaz.attr("src",kazImgLink);
 	imgNavEng.attr("src",engImgLink);
 	imgNavRus.attr("src",rusImgLink);
 	
 
 	$( ".language" ).on( "click", function( event ) {
-		//event.preventDefault();
+		// event.preventDefault();
 
 		var currentId = $(this).attr('id');
 

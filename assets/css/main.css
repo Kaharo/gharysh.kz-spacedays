@@ -799,10 +799,11 @@ ul li {
   background-color: #033566;
 }
 
-.platina, .gold, .silver, .information {
+.platina, .gold, .silver, .information, .hackaton {
   line-height: 0;
   padding: 0;
 }
+
 .platina {
   border-bottom: 1px solid #84898C;
   color:#84898C;
@@ -814,8 +815,13 @@ ul li {
 }
 
 .silver {
-  border-bottom: 1px solid #CCCCCC;
-  color:#CCCCCC;
+  border-bottom: 1px solid #888B92;
+  color:#888B92;
+}
+
+.hackaton {
+  border-bottom: 1px solid #E1AA00;
+  color:#E1AA00;
 }
 
 .information {
@@ -851,7 +857,12 @@ ul li {
 /*}*/
 
 @media (min-width: 768px) {
+  .platina, .gold, .silver, .information, .hackaton {
+    margin:50px 0 100px 0;
+  }
   .sponsor_platina {
+    /*width: 750px; */
+    /*height: 261px;*/
     width: 600px; 
     height: 145px;
   }
@@ -864,6 +875,10 @@ ul li {
     /*height: 85px;*/
     width: 300px; 
     height: 85px;
+  }
+  .sponsor_hackaton {
+    width: 500px; 
+    height: 189px;
   }
 }
 
@@ -907,6 +922,9 @@ ul li {
 }
 #sponsor_silver_scanecs {
   background: url(../images/partner/Sponsors_Scanecs.png) no-repeat center center/cover;
+}
+#sponsor_hackaton_esri {
+  background: url(../images/partner/Sponsors_Esri.png) no-repeat center center/cover;
 }
 
 /*Panel tabs*/
@@ -1021,3 +1039,7 @@ ul li {
   background: #333333;
 }
 /* End carousel */
+
+.text-justify {
+  text-align: justify;
+}
