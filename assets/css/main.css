@@ -893,8 +893,8 @@ ul li {
     height: 85px;
   }
   .sponsor_hackaton {
-    width: 400px; 
-    height: 151px;
+    width: 212px; 
+    height: 80px;
   }
 }
 
@@ -939,9 +939,15 @@ ul li {
 #sponsor_silver_scanecs {
   background: url(../images/partner/Sponsors_Scanecs.png) no-repeat center center/cover;
 }
+#sponsor_silver_baiterek {
+  background: url(../images/partner/Sponsors_Baiterek.png) no-repeat center center/cover;
+}
 #sponsor_hackaton_esri {
   background: url(../images/partner/Sponsors_Esri.png) no-repeat center center/cover;
 }
+
+
+
 
 /*Panel tabs*/
 .panel-tabs {
