@@ -552,6 +552,7 @@ ul li {
 .partner .partner-box:hover {
   opacity: 1;
 }
+
 .partner .partner-box-1 {
   background: url(../images/partner/partner-1.png) no-repeat center center/contain;
 }
@@ -901,7 +902,6 @@ ul li {
   }
 }
 
-
 #sponsor_platina_airbus {
   background: url(../images/partner/Sponsors_Airbus.png) no-repeat center center/cover;
 }
@@ -910,6 +910,9 @@ ul li {
 }
 #sponsor_gold_sstl {
   background: url(../images/partner/Sponsors_sstl.png) no-repeat center center/cover;
+}
+#sponsor_silver_urthecast01 {
+   background: url(../images/partner/Sponsors_Urthecast01.png) no-repeat center center/cover;
 }
 #sponsor_silver_urthecast {
    background: url(../images/partner/Sponsors_Urthecast.png) no-repeat center center/cover;
