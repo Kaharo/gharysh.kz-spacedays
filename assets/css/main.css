@@ -585,6 +585,9 @@ ul li {
 .partner .partner-box-11 {
   background: url(../images/partner/partner-11.png) no-repeat center center/contain;
 }
+.partner .partner-box-12 {
+  background: url(../images/partner/partner-12.png) no-repeat center center/contain;
+}
 
 /* 
  * 6.8 Section: FAQ
@@ -1066,6 +1069,6 @@ ul li {
   text-align: justify;
 }
 
-#hackaton-title {
+#hackaton-title, #reservation a {
   color: #fff;
 }
