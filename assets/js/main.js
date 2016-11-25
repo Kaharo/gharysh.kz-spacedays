@@ -25,7 +25,7 @@ function handleTopNavAnimation() {
  * COunter
 */
 // set the date we're counting down to
-var target_date = new Date('Nov, 21, 2016').getTime();
+var target_date = new Date('Jul, 21, 2017').getTime();
  
 // variables for time units
 var days, hours, minutes, seconds;
