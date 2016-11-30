@@ -1,4 +1,4 @@
-/*
+﻿/*
  * Change Navbar color while scrolling
 */
 

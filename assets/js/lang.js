@@ -1,4 +1,4 @@
-$(document).ready(function() {
+﻿$(document).ready(function() {
 	event.preventDefault();
 	// spacedays2016/assets/images/speakers/speaker-1.jpg
     var kazImgLink = "assets/images/flags/Kazakhstan.gif";
